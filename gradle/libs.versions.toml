@@ -14,6 +14,7 @@ klint = "12.1.0"
 maven-publish = "0.29.0"
 ktor = "2.3.12"
 lottie = "6.4.0"
+coroutines = "1.10.2"
 
 [libraries]
 androidx-activityCompose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
@@ -23,6 +24,7 @@ androidLottie = { module = "com.airbnb.android:lottie-compose", version.ref = "l
 
 ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktor" }
 ktor-client-darwin = { group = "io.ktor", name = "ktor-client-darwin", version.ref = "ktor" }
+coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
